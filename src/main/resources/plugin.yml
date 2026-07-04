@@ -1,0 +1,21 @@
+name: Limbobots
+version: 1.0.0
+main: com.example.limbot.Limbobots
+api-version: 1.16
+author: YourName
+description: Плагин для создания фейковых игроков-ботов
+website: https://github.com/yourusername/Limbobots
+
+commands:
+  limbobots:
+    description: Основная команда плагина Limbobots
+    usage: /<command> <add|tp|tpall|remove|list>
+    aliases: [lb, bots, limbo]
+
+permissions:
+  limbobots.admin:
+    description: Доступ к управлению ботами
+    default: op
+  limbobots.use:
+    description: Базовое использование плагина
+    default: op
